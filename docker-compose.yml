@@ -89,7 +89,7 @@ services:
   #     # - rabbitmq
   #   environment:
   #     <<: *mayan_env
-  #   image: mayanedms/mayanedms:3.4.16
+  #   image: mayanedms/mayanedms:3
   #   networks:
   #     - bridge
   #   ports:
@@ -121,7 +121,7 @@ services:
   #     # - rabbitmq
   #   environment:
   #     <<: *mayan_env
-  #   image: mayanedms/mayanedms:3.4.16
+  #   image: mayanedms/mayanedms:3
   #   networks:
   #     - bridge
   #   restart: unless-stopped
@@ -139,7 +139,7 @@ services:
   #     # - rabbitmq
   #   environment:
   #     <<: *mayan_env
-  #   image: mayanedms/mayanedms:3.4.16
+  #   image: mayanedms/mayanedms:3
   #   networks:
   #     - bridge
   #   ports:
